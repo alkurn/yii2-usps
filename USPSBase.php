@@ -143,6 +143,7 @@ class USPSBase {
    * @return String the response text
    */
   protected function doRequest($ch=null) {
+
     if (!$ch) {
       $ch = curl_init();
     }
@@ -185,7 +186,6 @@ class USPSBase {
 
     // close
     curl_close($ch);
-
     return $this->getResponse();
   }
 
