@@ -1,7 +1,6 @@
 <?php
 namespace alkurn\usps;
 
-use alkurn\usps\USPSBase;
 /**
  * USPS Rate calculator class
  * used to get a rate for shipping methods

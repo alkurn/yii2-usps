@@ -1,8 +1,6 @@
 <?php
 namespace alkurn\usps;
 
-use alkurn\usps\USPSBase;
-use alkurn\usps\USPSAddress;
 
 /**
  * USPS Address Verify Class

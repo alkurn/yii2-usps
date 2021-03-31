@@ -2,8 +2,6 @@
 namespace alkurn\usps;
 
 
-use alkurn\usps\USPSBase;
-
 /**
  */
 class USPSFirstClassServiceStandards extends USPSBase {

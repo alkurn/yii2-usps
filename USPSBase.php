@@ -2,7 +2,6 @@
 
 namespace alkurn\usps;
 
-use alkurn\usps\XMLParser;
 /**
  * USPS Base class
  * used to perform the actual api calls

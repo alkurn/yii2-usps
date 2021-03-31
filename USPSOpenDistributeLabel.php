@@ -1,10 +1,6 @@
 <?php
 namespace alkurn\usps;
 
-use alkurn\usps\USPSBase;
-
-/**
- */
 class USPSOpenDistributeLabel extends USPSBase {
   /**
    * @var string - the api version used for this type of call

@@ -1,8 +1,6 @@
 <?php
 namespace alkurn\usps;
 
-use alkurn\usps\USPSBase;
-
 /**
  */
 class USPSPriorityLabel extends USPSBase {

@@ -1,8 +1,6 @@
 <?php
 namespace alkurn\usps;
 
-use alkurn\usps\USPSBase;
-use alkurn\usps\USPSAddress;
 /**
  * USPS Zip code lookup by city/state
  * used to find a zip code by city/state lookup

@@ -1,9 +1,6 @@
 <?php
 namespace alkurn\usps;
-/**
- * Load required classes
- */
-use alkurn\usps\USPSBase;
+
 /**
  * USPS City/State lookup
  * used to find a city/state by a zipcode lookup
