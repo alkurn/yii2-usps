@@ -11,6 +11,7 @@
             "email": "mganesh.alkurn@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*"
     },
