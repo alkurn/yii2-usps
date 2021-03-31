@@ -20,13 +20,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist tejrajs/usps-api "*"
+php composer.phar require --prefer-dist alkurn/yii2-usps "*"
 ```
 
 or add
 
 ```
-"tejrajs/usps-api": "*"
+"alkurn/yii2-usps": "*"
 ```
 
 to the require section of your `composer.json` file.
