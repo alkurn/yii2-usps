@@ -1,13 +1,16 @@
 {
     "name": "alkurn/yii2-usps",
     "description": "United States Postal Service api",
-    "type": "library",
-    "homepage": "https://github.com/alkurn/yii2-usps/blob/master/README.md",
-    "keywords": ["yii2","extension","usps","api"],
+    "keywords": ["yii2", "usps", "helper"],
+    "type": "yii2-extension",
     "license": "BSD-2-Clause",
+    "support": {
+        "issues": "https://gitlab.com/alkurn/yii2-usps/issue",
+        "source": "https://gitlab.com/alkurn/yii2-usps"
+    },
     "authors": [
         {
-            "name": "Alkurn",
+            "name": "Ganesh",
             "email": "mganesh.alkurn@gmail.com"
         }
     ],
@@ -17,8 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "alkurn\\yii2-usps\\": ""
+            "alkurn\\usps\\": ""
         }
     }
-
 }
