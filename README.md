@@ -20,13 +20,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist alkurn/yii2-usps "*"
+php composer.phar require --prefer-dist alkurn/yii2-usps "dev-master"
 ```
 
 or add
 
 ```
-"alkurn/yii2-usps": "*"
+"alkurn/yii2-usps": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
