@@ -32,6 +32,7 @@ class USPSRatePackage extends USPSRate {
     const SERVICE_LIBRARY = 'LIBRARY';
     const SERVICE_ALL = 'ALL';
     const SERVICE_ONLINE = 'ONLINE';
+
     /**
      * First class mail type
      * required when you use one of the first class services
@@ -41,6 +42,7 @@ class USPSRatePackage extends USPSRate {
     const MAIL_TYPE_PARCEL = 'PARCEL';
     const MAIL_TYPE_POSTCARD = 'POSTCARD';
     const MAIL_TYPE_PACKAGE_SERVICE = 'PACKAGE SERVICE';
+
     /**
      * Container constants
      */
@@ -129,6 +131,61 @@ class USPSRatePackage extends USPSRate {
     public function setSize($value) {
         return $this->setField('Size', $value);
     }
+
+    /**
+     * Set the revision property
+     * @param string|int $value
+     * @return object USPSRatePackage
+     */
+    public function setRevision($value = 2) {
+        return $this->setField('Revision', $value);
+    }
+
+    /**
+     * Set the width property
+     * @param string|int $value
+     * @return object USPSRatePackage
+     */
+    public function setWidth($value) {
+        return $this->setField('Width', $value);
+    }
+
+    /**
+     * Set the length property
+     * @param string|int $value
+     * @return object USPSRatePackage
+     */
+    public function setLength($value) {
+        return $this->setField('Length', $value);
+    }
+
+    /**
+     * Set the height property
+     * @param string|int $value
+     * @return object USPSRatePackage
+     */
+    public function setHeight($value) {
+        return $this->setField('Height', $value);
+    }
+
+    /**
+     * Set the girth property
+     * @param string|int $value
+     * @return object USPSRatePackage
+     */
+    public function setGirth($value) {
+        return $this->setField('Girth', $value);
+    }
+
+    /**
+     * Set the machinable property
+     * @param string|int $value
+     * @return object USPSRatePackage
+     */
+    public function setMachinable($value) {
+        return $this->setField('Machinable', $value);
+    }
+
     /**
      * Add an element to the stack
      * @param string|int $key
